@@ -1,0 +1,217 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* --------Header------- */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-image: url(../imagenes/img-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(31, 116, 191);
+
+    position: fixed;
+    top: 0px;
+
+
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+    color: rgb(31, 116, 191);
+
+}
+
+.portada {
+    background-color: aqua;
+    background-image: url(../imagenes/pie-de-foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada h2 {
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    color: aliceblue;
+    background-color: #05000096;
+    text-align: center;
+    font-size: 4rem;
+    width: 800px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+}
+
+.quienes {
+    background-color: rgb(250, 250, 250);
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    margin-top: 20px;
+    height: 30vh;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.quienes h2{
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,0) 40%, rgba(185,187,236,1) 50%, rgba(0,212,255,0) 60%);
+
+}
+
+.productos {
+    background-image: url(../imagenes/active-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.productos h3 {
+    font-size: 3rem;
+    color: rgb(250, 250, 250);
+    background-color: #050000a1;
+}
+
+
+.productos p {
+    font-size: 3rem;
+    width: 1040px;
+    color: rgb(250, 250, 250);
+    background-color: #050000a1;
+}
+
+
+
+.sociales {
+    display: inline-block;
+    background-image: url(../imagenes/active1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 32vw;
+    height: 250px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    color: aliceblue;
+    font-size: 4rem;
+    padding-left: 10vw;
+    margin-left: 5px;
+}
+
+.corporativos {
+    display: inline-block;
+    background-image: url(../imagenes/active-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33vw;
+    height: 250px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    color: aliceblue;
+    font-size: 4rem;
+    padding-left: 10vw;
+
+}
+
+.exposiciones {
+    display: inline-block;
+    background-image: url(../imagenes/active-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 32vw;
+    height: 250px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    color: aliceblue;
+    font-size: 4rem;
+    padding-left: 10vw;
+
+}
+
+.nuestros {
+    background-color: rgb(250, 250, 250);
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    margin-top: 20px;
+    width: 650px;
+    height: 30vh;
+    font-size: 6rem;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,0) 40%, rgba(185,187,236,1) 50%, rgba(0,212,255,0) 60%);
+margin-left: 600px;
+}
+
+
+footer {
+    padding: 40px;
+    font-size: 2rem;
+    background-color: #D8D9F5;
+    /* color: aliceblue; */
+    text-align: right;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    color: rgb(1, 2, 2);
+    margin-top: 20px;
+
+}
+
+p {
+
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    width: 60vw;
+    height: 250px;
+
+}
+
+.wp {
+    position: fixed;
+    width: 40px;
+    height: 35px;
+    right: 1px;
+    top: 20%;
+    background-image: url(../imagenes/whatsapp.png);
+    background-size: contain;
+    padding: 15px;
+    bottom: 50px;
+    border: 0;
+    border-radius: 50%;
+
+}
