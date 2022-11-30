@@ -13,7 +13,18 @@ ul li {
 }
 
 /* --------Header------- */
-header {
+header{
+    background-image: url(../imagenes/img-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav ul li{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    margin-left: 40%;
+    color: black;
+}
+/* header {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -35,7 +46,7 @@ header nav ul {
     gap: 30px;
     color: rgb(31, 116, 191);
 
-}
+} */
 
 .portada {
     background-color: aqua;
@@ -63,6 +74,9 @@ header nav ul {
 h1 {
     font-family: 'Bebas Neue', cursive;
     font-family: 'Teko', sans-serif;
+    color: rgba(27, 27, 110, 0.788);
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .quienes {
@@ -215,3 +229,4 @@ p {
     border-radius: 50%;
 
 }
+
