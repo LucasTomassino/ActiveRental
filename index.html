@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Active Rental</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,39 +17,46 @@
 </head>
 
 <body>
-    <!-- comienzo de header -->
-    <header>
-        <h1 class="cajaUno">Active Rental</h1>
-        <nav>
-            <ul>
-                <li><a href="/pages/nosotros.html">Nosotros</a></li>
-                <li><a href="/pages/eventos.html">Eventos</a></li>
-                <li><a href="/pages/contactanos.html">Contacto</a></li>
-                <li><a href="/pages/catalogo.html">Catalogo</a></li>
-            </ul>
-        </nav>
+    <!-- Comienzo del Header -->
+    <header class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h1>Active Rental</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/contactanos.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/catalogo.html">Catalogo</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <!-- fin de header -->
+    <!-- Final del header -->
+
+    <!-- Comienzo del main -->
+
     <main class="fondo">
         <!-- primer articulo -->
-        <section class="portada">
+        <section></section>
+        <div class="portada">
             <h2 class="cajaDos">Alquiler de muebles para eventos</h2>
-            <article>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis repellendus odio vitae, saepe
-                    mollitia cum eaque veritatis ipsum ratione sed corrupti, nobis illo amet nisi non! Corrupti fugit
-                    iure at.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non suscipit voluptate a tempore, ab
-                    veniam distinctio officiis fuga ullam iure esse quis, quasi adipisci eius. Nulla repudiandae atque
-                    similique?
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo ducimus vero saepe fuga! Alias, quo
-                    explicabo? Minima, harum. Optio autem ipsum neque saepe earum qui possimus at necessitatibus tenetur
-                    provident!
-
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium tempore consequatur saepe qui
-                    rem
-                    sunt obcaecati vitae velit et eos quis nesciunt, iusto quam, dolorem hic placeat, fugiat modi omnis.
-                </p> -->
-        </section>
+            
+        </div>
+    </section>
 
 
         <section class="quienes">
@@ -73,13 +82,15 @@
                 <div class="exposiciones">Exposiciones</div>
             </section>
         
-        </article>
+        
 
         <div class="wp"><a href="https://youtube.com/">wp</a></div>
 
 
 
     </main>
+
+    <!-- Comienzo de footer -->
     <footer>
         <h4>contactanos!</h4>
         <div>redes sociales</div>
@@ -87,7 +98,9 @@
         <div>tel</div>
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

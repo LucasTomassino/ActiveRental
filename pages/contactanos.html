@@ -10,77 +10,85 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@300;600&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <h1>Active Rental</h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <nav class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Eventos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Catalogo</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section>
-            <h2>Contactanos!</h2>
-            <form action="">
+    <div class="fondo">
+        <!-- Comienzo del Header -->
+        <header class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h1>Active Rental</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/eventos.html">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/catalogo.html">Catalogo</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- final de header---- -->
+        <main>
+            <section class="contactanos">
+                <h2>Contactanos!</h2>
+                <form action="">
 
-                <div> <label for="nombre-apellido">Nombre y Apellido</label>
-                    <input type="text" id="nombre-apellido">
-                </div>
-                <div> <label for="fecha-nacimiento">Fecha de nacimiento</label>
-                    <input type="datetime" id="fecha-nacimiento">
-                </div>
-                <div><label for="introduzca-email">Introduza su Email</label>
-                    <input type="email" id="introduzca-email">
-                </div>
-                <div><label for="deje-su-comentario">Dejenos su comentario</label>
-                    <textarea name="" id="deje-su-comentario" cols="30" rows="10"></textarea>
-                </div>
-                <div><label for="eliminar-datos">Eliminar datos cargados</label>
-                    <input type="reset" id="eliminar-datos">
-                </div>
-                <div><label for="enviar-datos">Enviar datos</label>
-                    <input type="submit" id="enviar-datos" value="cargar">
-                </div>
-            </form>
-        </section>
-        <div><a href="https://goo.gl/maps/HJe97jQgiQSQS8vn9">Ubicacion!</a></div>
-        <div><a href="/index.html">volver pagina Home</a></div>
+                    <div> <label for="nombre-apellido">Nombre y Apellido</label>
+                        <input type="text" id="nombre-apellido">
+                    </div>
+                    <div> <label for="empresa">Empresa/razon social</label>
+                        <input type="text" id="empresa">
+                    </div>
+                    <div><label for="introduzca-email">Introduza su Email</label>
+                        <input type="email" id="introduzca-email">
+                    </div>
+                    <div><label for="deje-su-comentario">Dejenos su consulta</label>
+                        <textarea name="" id="deje-su-comentario" cols="30" rows="10"></textarea>
+                    </div>
+                    <div><label for="eliminar-datos">Eliminar datos cargados</label>
+                        <input type="reset" id="eliminar-datos">
+                    </div>
+                    <div><label for="enviar-datos">Enviar datos</label>
+                        <input type="submit" id="enviar-datos" value="enviar">
+                    </div>
+                </form>
+            </section>
 
-    </main>
-    <footer>
-        <h4>contactanos!</h4>
-        <div>redes sociales</div>
-        <div>email</div>
-        <div>tel</div>
-    </footer>
+            <div><a href="https://goo.gl/maps/HJe97jQgiQSQS8vn9">Ubicacion!</a></div>
+            <div><a href="../index.html">volver pagina Home</a></div>
+
+        </main>
+        <footer>
+            <h4>contactanos!</h4>
+            <div>redes sociales</div>
+            <div>email</div>
+            <div>tel</div>
+        </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+    </div>
 </body>
 
 </html>
