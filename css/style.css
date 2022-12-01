@@ -27,6 +27,28 @@ h1 {
     font-size: 3rem;
     font-weight: 600;
 }
+@media (min-width:768px){ 
+.textPortada{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    color: #ffffff;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 6rem;
+    background-color: rgba(0, 0, 0, 0.555);
+    
+
+}
+.subPortada{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    color: #ffffff;
+    margin-bottom: 600px;
+    font-size: 4rem;
+    background-color: rgba(0, 0, 0, 0.555);
+    
+}
+}
 
 nav ul li {
     font-family: 'Bebas Neue', cursive;
@@ -42,8 +64,8 @@ nav ul li {
 
 
 .quienes {
-    background: rgb(209,177,255);
-background: linear-gradient(0deg, rgba(209,177,255,0.7259278711484594) 0%, rgba(250,254,255,1) 100%);
+    background: rgb(209, 177, 255);
+    background: linear-gradient(0deg, rgba(209, 177, 255, 0.7259278711484594) 0%, rgba(250, 254, 255, 1) 100%);
     width: 100%;
     height: 45%;
     border: solid;
@@ -57,9 +79,11 @@ background: linear-gradient(0deg, rgba(209,177,255,0.7259278711484594) 0%, rgba(
     font-weight: 600;
     font-size: 3rem;
     background: rgb(2, 0, 36);
-    background: linear-gradient(180deg, rgba(2, 0, 36, 0) 40%, rgba(185, 187, 236, 1) 50%, rgba(0, 212, 255, 0) 60%); */
-
+    background: linear-gradient(180deg, rgba(2, 0, 36, 0) 40%, rgba(185, 187, 236, 1) 50%, rgba(0, 212, 255, 0) 60%);
+    */
 }
+
+
 /* @media (max-width:768px){
     .quienes{
         height: 100vh;
@@ -76,16 +100,18 @@ background: linear-gradient(0deg, rgba(209,177,255,0.7259278711484594) 0%, rgba(
 } */
 
 
-.sectionDos{
+.sectionDos {
     padding-top: 200px;
     background-image: url(../imagenes/pexels-pixabay-50675.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 80vh;
-    
+
 }
-.sectionDos p,h3{
+
+.sectionDos p,
+h3 {
     font-size: 1.5rem;
     font-weight: 600;
     color: black;
@@ -94,8 +120,30 @@ background: linear-gradient(0deg, rgba(209,177,255,0.7259278711484594) 0%, rgba(
     background-color: #e9e9e94b;
     margin-bottom: 0;
 }
-.sectionDos p{
+
+.sectionDos p {
     font-weight: 400;
+}
+@media (min-width:768px){
+    .quienes h2{
+        font-size: 6rem;
+    }
+    .quienes p{
+        font-size: 3.5rem;
+    }
+    
+}
+@media (min-width:768px){
+    .sectionDos{
+        font-size: 1rem;
+} 
+.sectionDos h3{
+    font-size: 3.5rem;
+}
+.sectionDos p{
+    font-size: 2.5rem;
+}
+
 }
 
 
@@ -104,7 +152,7 @@ background: linear-gradient(0deg, rgba(209,177,255,0.7259278711484594) 0%, rgba(
     background-image: url(../imagenes/active1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 30vw;
+    width: 33vw;
     height: 250px;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Teko', sans-serif;
@@ -113,13 +161,20 @@ background: linear-gradient(0deg, rgba(209,177,255,0.7259278711484594) 0%, rgba(
     padding-left: 10vw;
     margin-left: 5px;
 }
+@media (max-width:768px){
+    .sociales{
+        width: 100vw;
+        margin-left: 0px;
+
+    }
+}
 
 .corporativos {
     display: inline-block;
     background-image: url(../imagenes/active-6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 30vw;
+    width: 33vw;
     height: 250px;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Teko', sans-serif;
@@ -128,13 +183,19 @@ background: linear-gradient(0deg, rgba(209,177,255,0.7259278711484594) 0%, rgba(
     padding-left: 10vw;
 
 }
+@media (max-width:768px){
+    .corporativos{
+        width: 100vw;
+
+    }
+}
 
 .exposiciones {
     display: inline-block;
     background-image: url(../imagenes/active-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 30vw;
+    width: 33vw;
     height: 250px;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Teko', sans-serif;
@@ -142,6 +203,12 @@ background: linear-gradient(0deg, rgba(209,177,255,0.7259278711484594) 0%, rgba(
     font-size: 4rem;
     padding-left: 10vw;
 
+}
+@media (max-width:768px){
+    .exposiciones{
+        width: 100vw;
+
+    }
 }
 
 .nuestros {
@@ -160,7 +227,12 @@ background: linear-gradient(0deg, rgba(209,177,255,0.7259278711484594) 0%, rgba(
     margin-bottom: 10px;
     background: rgb(2, 0, 36);
     background: linear-gradient(180deg, rgba(2, 0, 36, 0) 40%, rgba(185, 187, 236, 1) 50%, rgba(0, 212, 255, 0) 60%);
-    
+
+}
+@media (min-width:768px){
+    .nuestros{
+        font-size: 5rem;
+    }
 }
 
 
@@ -176,7 +248,8 @@ footer {
     margin-top: 20px;
     height: 100%;
 }
-footer h5{
+
+footer h5 {
     font-size: 2rem;
 }
 
@@ -194,20 +267,22 @@ footer h5{
     border: 0;
     border-radius: 50%;
 
-} */
+}
 
-.contactanos{
+*/ .contactanos {
     margin-left: 20%;
     font-size: 2rem;
-    font-weight:600 ;
+    font-weight: 600;
     color: rgb(0, 0, 0);
     font-family: 'Bebas Neue', cursive;
     font-family: 'Teko', sans-serif;
 }
-.contactanos h2{
+
+.contactanos h2 {
     font-size: 4rem;
     font-weight: 900;
 }
-.fondo{
+
+.fondo {
     background-image: url(../imagenes/1002.jpg);
 }
