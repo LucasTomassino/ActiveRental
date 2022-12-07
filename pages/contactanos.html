@@ -48,36 +48,56 @@
         </header>
         <!-- final de header---- -->
         <main>
-            <section class="contactanos">
-                <h2>Contactanos!</h2>
-                <form action="">
+            <section class="contactanos container shadow my-5">
+                <div class="row">
 
-                    <div> <label for="nombre-apellido">Nombre y Apellido</label>
-                        <input type="text" id="nombre-apellido">
+
+                    <h2 class="text-center">Contactanos!</h2>
+                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis voluptatem
+                        itaque vero earum sint asperiores, in vitae incidunt quis expedita dicta dolore! Harum assumenda
+                        error officiis provident eaque accusantium esse.</p>
+                    <div class="col-lg-10">
+                        <form action="">
+
+                            <div> <label for="nombre-apellido">Nombre y Apellido</label>
+                                <input type="text" id="nombre-apellido" class="shadow p-3 mb-5 bg-body rounded"
+                                    placeholder="Name">
+                            </div>
+                            <div> <label for="empresa">Empresa (opcional)</label>
+                                <input type="text" id="empresa" class="shadow p-3 mb-5 bg-body rounded" placeholder="-">
+                            </div>
+                            <div><label for="introduzca-email">Introduza su Email</label>
+                                <input type="email" id="introduzca-email" class="shadow p-3 mb-5 bg-body rounded"
+                                    placeholder="example@gmail.com">
+                            </div>
+                            <div class="d-flex justify-content-center"><label for="deje-su-comentario"
+                                    class="mx-1">Dejenos su consulta</label>
+                                <textarea name="" id="deje-su-comentario" cols="30" rows="10"
+                                    class="shadow p-3 mb-5 bg-body rounded"
+                                    placeholder="Su consulta sera respondida a la brevedad."></textarea>
+                            </div>
+                            <div class="d-flex justify-content-center"><label for="eliminar-datos"></label>
+                                <input type="reset" id="eliminar-datos" class="btn btn-danger p-3 mb-5 rounded ">
+                            </div>
+                            <div class="d-flex justify-content-center"><label for="enviar-datos"></label>
+                                <input type="submit" id="enviar-datos" class="btn btn-primary p-3 mb-5 rounded"
+                                    value="Enviar">
+                            </div>
+                        </form>
                     </div>
-                    <div> <label for="empresa">Empresa/razon social</label>
-                        <input type="text" id="empresa">
+
+
+                    <div class="col-lg-2">
+                        <img src="../imagenes/contacto.jpg" alt="" class="d-none d-lg-inline-block w-100">
                     </div>
-                    <div><label for="introduzca-email">Introduza su Email</label>
-                        <input type="email" id="introduzca-email">
-                    </div>
-                    <div><label for="deje-su-comentario">Dejenos su consulta</label>
-                        <textarea name="" id="deje-su-comentario" cols="30" rows="10"></textarea>
-                    </div>
-                    <div><label for="eliminar-datos">Eliminar datos cargados</label>
-                        <input type="reset" id="eliminar-datos">
-                    </div>
-                    <div><label for="enviar-datos">Enviar datos</label>
-                        <input type="submit" id="enviar-datos" value="enviar">
-                    </div>
-                </form>
+                </div>
             </section>
 
             <div><a href="https://goo.gl/maps/HJe97jQgiQSQS8vn9">Ubicacion!</a></div>
-            <div><a href="../index.html">volver pagina Home</a></div>
+            <div><a href="../index.html" class="btn btn-dark">volver pagina Home</a></div>
 
         </main>
-    
+
         <footer>
             <div class="row">
                 <div class="text-start text-md-start text-lg-start col-12 col-md-6 col-lg-4">
@@ -86,14 +106,14 @@
                     <h5>email</h5>
                     <h5>tel</h5>
                 </div>
-    
+
                 <div class="text-start text-md-center text-lg-center col-12 col-md-3 col-lg-4">
                     <h5>contactanos!</h5>
                     <h5>redes sociales</h5>
                     <h5>email</h5>
                     <h5>tel</h5>
                 </div>
-    
+
                 <div class="text-start text-md-end text-lg-end col-12 col-md-3 col-lg-4">
                     <h5>contactanos!</h5>
                     <h5>redes sociales</h5>
@@ -107,7 +127,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
             crossorigin="anonymous"></script>
-        </div>
+    </div>
 </body>
 
 </html>

@@ -80,7 +80,7 @@ nav ul li {
     font-size: 3rem;
     background: rgb(2, 0, 36);
     background: linear-gradient(180deg, rgba(2, 0, 36, 0) 40%, rgba(185, 187, 236, 1) 50%, rgba(0, 212, 255, 0) 60%);
-    */
+    
 }
 
 
@@ -270,17 +270,26 @@ footer h5 {
 }
 
 */ .contactanos {
-    margin-left: 20%;
+    /* margin-left: 20%; */
     font-size: 2rem;
     font-weight: 600;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Bebas Neue', cursive;
     font-family: 'Teko', sans-serif;
+    
 }
 
 .contactanos h2 {
-    font-size: 4rem;
+    text-align: center;
+    font-size: 3rem;
     font-weight: 900;
+    color: aliceblue;
+    background-color: #000000;
+}
+.contactanos p{
+    background-color: rgba(65, 36, 4, 0.548);
+    color: aliceblue;
+    font-weight: 500;
 }
 
 .fondo {
