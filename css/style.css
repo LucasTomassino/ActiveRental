@@ -20,6 +20,7 @@ header {
 
 }
 
+
 h1 {
     font-family: 'Bebas Neue', cursive;
     font-family: 'Teko', sans-serif;
@@ -43,9 +44,11 @@ h1 {
     font-family: 'Bebas Neue', cursive;
     font-family: 'Teko', sans-serif;
     color: #ffffff;
-    margin-bottom: 600px;
+    margin-bottom: 400px;
+    padding-right: 0%;
     font-size: 4rem;
     background-color: rgba(0, 0, 0, 0.555);
+    width: 1275 px;
     
 }
 }
@@ -60,12 +63,26 @@ nav ul li {
 
 /* ------------------final de header----------- */
 
+.carrusel{
+    margin-bottom: 3%;
+}
+.carousel-inner img{
+    width: 100%;
+    max-height: 90vh;
+}
+
+.textPrincipal{
+    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Teko', sans-serif;
+    color: rgba(27, 27, 110, 0.788);
+}
 
 
 
 .quienes {
-    background: rgb(209, 177, 255);
-    background: linear-gradient(0deg, rgba(209, 177, 255, 0.7259278711484594) 0%, rgba(250, 254, 255, 1) 100%);
+    /* background: rgb(209, 177, 255);
+    background: linear-gradient(0deg, rgba(209, 177, 255, 0.7259278711484594) 0%, rgba(250, 254, 255, 1) 100%); */
     width: 100%;
     height: 45%;
     border: solid;
@@ -78,9 +95,9 @@ nav ul li {
 .quienes h2 {
     font-weight: 600;
     font-size: 3rem;
-    background: rgb(2, 0, 36);
+    /* background: rgb(2, 0, 36);
     background: linear-gradient(180deg, rgba(2, 0, 36, 0) 40%, rgba(185, 187, 236, 1) 50%, rgba(0, 212, 255, 0) 60%);
-    
+     */
 }
 
 
@@ -107,6 +124,7 @@ nav ul li {
     background-repeat: no-repeat;
     width: 100%;
     height: 80vh;
+    margin-bottom: 2%;
 
 }
 
@@ -149,11 +167,12 @@ h3 {
 
 .sociales {
     display: inline-block;
+    margin-right: 5%;
     background-image: url(../imagenes/active1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 33vw;
-    height: 250px;
+    width: 29vw;
+    height: 380px;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Teko', sans-serif;
     color: aliceblue;
@@ -163,19 +182,20 @@ h3 {
 }
 @media (max-width:768px){
     .sociales{
-        width: 100vw;
-        margin-left: 0px;
+        width: 100%;
+        height: 100%;
 
     }
 }
 
 .corporativos {
     display: inline-block;
+    margin-right: 5%;
     background-image: url(../imagenes/active-6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 33vw;
-    height: 250px;
+    width: 29vw;
+    height: 380px;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Teko', sans-serif;
     color: aliceblue;
@@ -185,7 +205,8 @@ h3 {
 }
 @media (max-width:768px){
     .corporativos{
-        width: 100vw;
+        width: 100%;
+        height: 100%;
 
     }
 }
@@ -195,8 +216,8 @@ h3 {
     background-image: url(../imagenes/active-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 33vw;
-    height: 250px;
+    width: 29vw;
+    height: 380px;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Teko', sans-serif;
     color: aliceblue;
@@ -206,7 +227,8 @@ h3 {
 }
 @media (max-width:768px){
     .exposiciones{
-        width: 100vw;
+        width: 100%;
+        height: 100%;
 
     }
 }
@@ -225,8 +247,8 @@ h3 {
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(180deg, rgba(2, 0, 36, 0) 40%, rgba(185, 187, 236, 1) 50%, rgba(0, 212, 255, 0) 60%);
+    /* background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 0) 40%, rgba(185, 187, 236, 1) 50%, rgba(0, 212, 255, 0) 60%); */
 
 }
 @media (min-width:768px){
@@ -236,7 +258,7 @@ h3 {
 }
 
 
-footer {
+/* footer {
     padding: 10px;
     padding-top: 20px;
     font-size: 1rem;
@@ -251,7 +273,7 @@ footer {
 
 footer h5 {
     font-size: 2rem;
-}
+} */
 
 
 .wp {
@@ -260,7 +282,7 @@ footer h5 {
     height: 35px;
     right: 1px;
     top: 20%;
-    background-image: url(../imagenes/whatsapp.png);
+    /* background-image: url(../imagenes/whatsapp.png); */
     background-size: contain;
     padding: 15px;
     bottom: 50px;
@@ -292,6 +314,69 @@ footer h5 {
     font-weight: 500;
 }
 
-.fondo {
-    background-image: url(../imagenes/1002.jpg);
+/* .fondo {
+    background-color: gainsboro;
+width: 100%;
+height: 100vw;
+
+} */
+
+.fot{
+    background-color:antiquewhite;
+    color: #000000;
+    height: 40vh;
+    padding-top: 5%;
+    
+}
+@media (max-width:768px){
+    .fot{
+        max-width: 100%;
+        height: auto;
+        padding-left: 1%;
+
+        }
+    }
+.galeria{
+    background-color: #000000;
+}
+
+@media (max-width:768px){
+    .imgRespon{
+        max-width: 100%;
+        height: auto;
+    }
+    }
+
+    .carousel2 img{
+        
+        max-width: 100%;
+        max-height: 50vw;
+        
+    }
+
+.input{
+    background-image: url(../imagenes/pexels-pixabay-50675.jpg);
+}
+@media (max-width:768px){
+    .input{
+        width: 100%;
+        height: auto;
+    }
+    }
+.holaa{
+    width: 60%;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+@media (max-width:768px){
+    .holaa{
+        width: 100%;
+        height: auto;
+    }
+    }
+@media (max-width:768px){
+
+.envios{
+    padding-left: 10px;
+} 
 }
