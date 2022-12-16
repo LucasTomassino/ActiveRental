@@ -331,9 +331,9 @@ height: 100vw;
 }
 @media (max-width:768px){
     .fot{
-        max-width: 100%;
+        width: 100%;
         height: auto;
-        padding-left: 1%;
+        /* padding-left: 1%; */
 
         }
     }
@@ -355,18 +355,18 @@ height: 100vw;
         
     }
 
-.input{
+.primerDiv{
     background-image: url(../imagenes/pexels-pixabay-50675.jpg);
     width: 100%;
     height: 85vh;
 }
 @media (max-width:768px){
-    .input{
+    .primerDiv{
         width: 100%;
         height: auto;
     }
     }
-.holaa{
+.sectionNosotrs{
     width: 90%;
     height: 80vh;
     background-color: rgba(255, 255, 255, 0.5);
@@ -374,7 +374,7 @@ height: 100vw;
 }
 
 @media (max-width:768px){
-    .holaa{
+    .sectionNosotrs{
         width: 100%;
         height: auto;
     }
