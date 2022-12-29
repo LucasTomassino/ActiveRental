@@ -1,0 +1,187 @@
+@media (min-width:768px){ 
+    .textPortada{
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        font-size: 2rem;
+        background-color: rgba(0, 0, 0, 0.555);
+        width: 800px;
+        
+    
+    }
+    .subPortada{
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+        margin-bottom: 350px;
+        padding-right: 0%;
+        font-size: 2rem;
+        background-color: rgba(0, 0, 0, 0.555);
+        width: 1275 px;
+        
+    }
+    }
+    .quienes {
+        width: 100%;
+        height: 45%;
+        border: solid;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Teko', sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    
+    .quienes h2 {
+        font-weight: 600;
+        font-size: 3rem;
+    }
+    
+    
+    .sectionDos {
+        padding-top: 200px;
+        background-image: url(../imagenes/pexels-pixabay-50675.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 80vh;
+        margin-bottom: 2%;
+    
+    }
+    
+    .sectionDos p,
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: black;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Teko', sans-serif;
+        background-color: #e9e9e94b;
+        margin-bottom: 0;
+    }
+    
+    .sectionDos p {
+        font-weight: 400;
+    }
+    @media (min-width:768px){
+        .quienes h2{
+            font-size: 6rem;
+        }
+        .quienes p{
+            font-size: 3.5rem;
+        }
+        
+    }
+    @media (min-width:768px){
+        .sectionDos{
+            font-size: 1rem;
+    } 
+    .sectionDos h3{
+        font-size: 3.5rem;
+    }
+    .sectionDos p{
+        font-size: 2.5rem;
+    }
+    
+    }
+    
+    
+    .sociales {
+        display: inline-block;
+        margin-right: 5%;
+        background-image: url(../imagenes/active1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 28vw;
+        height: 380px;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Teko', sans-serif;
+        color: aliceblue;
+        font-size: 4rem;
+        padding-left: 10vw;
+        margin-left: 5px;
+    }
+    @media (max-width:768px){
+        .sociales{
+            width: 100%;
+            height: 100%;
+    margin-left: 0px;
+        }
+    }
+    
+    .corporativos {
+        display: inline-block;
+        margin-right: 5%;
+        background-image: url(../imagenes/active-6.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 28vw;
+        height: 380px;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Teko', sans-serif;
+        color: aliceblue;
+        font-size: 4rem;
+        padding-left: 10vw;
+    
+    }
+    @media (max-width:768px){
+        .corporativos{
+            width: 100%;
+            height: 100%;
+    
+        }
+    }
+    
+    .exposiciones {
+        display: inline-block;
+        background-image: url(../imagenes/active-3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 28vw;
+        height: 380px;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Teko', sans-serif;
+        color: aliceblue;
+        font-size: 4rem;
+        padding-left: 10vw;
+    
+    }
+    @media (max-width:768px){
+        .exposiciones{
+            width: 100%;
+            height: 100%;
+    
+        }
+    }
+    
+    .nuestros {
+        background-color: rgb(250, 250, 250);
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Teko', sans-serif;
+        margin-top: 20px;
+        width: 100%;
+        height: 10vh;
+        font-size: 3rem;
+        font-weight: 600;
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    
+    }
+    @media (min-width:768px){
+        .nuestros{
+            font-size: 5rem;
+        }
+    }
+    .textPrincipal{
+        font-size: 5rem;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Teko', sans-serif;
+        color: rgba(27, 27, 110, 0.788);
+    }
+    
+    
+    
